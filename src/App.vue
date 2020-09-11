@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-  <router-view></router-view>
-</div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-  import main from "./components/test/main.vue"
   export default {
-    name: 'App',
-    components:{
-      'main': main
-  }
+    name: 'App'
+
 }
 </script>
 
